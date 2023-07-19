@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`options changes classes when clicked 1`] = `
+<ul
+  className=""
+>
+  <li
+    className=""
+    onClick={[Function]}
+  >
+    Latest first
+  </li>
+  <li
+    className=""
+    onClick={[Function]}
+  >
+    Newest first
+  </li>
+</ul>
+`;
+
+exports[`options changes classes when clicked 2`] = `
+<ul
+  className=""
+>
+  <li
+    className=""
+    onClick={[Function]}
+  >
+    Latest first
+  </li>
+  <li
+    className=""
+    onClick={[Function]}
+  >
+    Newest first
+  </li>
+</ul>
+`;
+
+exports[`options changes classes when clicked 3`] = `
+<ul
+  className=""
+>
+  <li
+    className=""
+    onClick={[Function]}
+  >
+    Latest first
+  </li>
+  <li
+    className=""
+    onClick={[Function]}
+  >
+    Newest first
+  </li>
+</ul>
+`;

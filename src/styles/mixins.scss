@@ -1,0 +1,17 @@
+@import "./variables.scss";
+
+@mixin breakpoint($breakpoint) {
+  @if ($breakpoint == "") {
+    @content;
+  } @else {
+    $value: map-get($breakpoints, $breakpoint);
+
+    @if ($value != null) {
+      @media (min-width: $value) {
+        @content;
+      }
+    } @else {
+      @warn "unknown breakpoint";
+    }
+  }
+}
