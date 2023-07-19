@@ -1,0 +1,13 @@
+@use "sass:map";
+
+$colors: (
+  "accent": #3498db,
+);
+
+$breakpoints: (
+  xl: "1440px",
+  lg: "1024px",
+  md: "766px",
+  sm: "414px",
+  xs: "280px",
+);

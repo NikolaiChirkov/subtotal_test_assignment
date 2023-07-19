@@ -1,0 +1,10 @@
+.root {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+
+  &__card {
+    margin: 8px;
+    width: calc(50% - 18px);
+  }
+}

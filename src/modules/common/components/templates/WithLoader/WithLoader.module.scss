@@ -1,0 +1,19 @@
+.root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+
+  &__text {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+  }
+}

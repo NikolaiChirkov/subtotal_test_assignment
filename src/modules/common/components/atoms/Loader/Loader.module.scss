@@ -1,0 +1,11 @@
+.root {
+  transform-origin: center;
+  animation: spinner 0.75s infinite linear;
+  fill: white;
+
+  @keyframes spinner {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}

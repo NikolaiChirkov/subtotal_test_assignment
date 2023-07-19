@@ -1,0 +1,28 @@
+@import "@styles/mixins.scss";
+
+.root {
+  background-color: #000;
+  color: #fff;
+
+  &__main {
+    padding: 0 8px;
+  }
+
+  @include breakpoint("sm") {
+    &__main {
+      padding: 0 16px;
+    }
+  }
+
+  @include breakpoint("md") {
+    &__main {
+      padding: 0 32px;
+    }
+  }
+
+  @include breakpoint("lg") {
+    &__main {
+      padding: 0 80px;
+    }
+  }
+}
